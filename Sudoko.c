@@ -78,6 +78,18 @@ int solveSudoku(int grid[N][N], int row, int col)
 }
 
 int main(){
+	
+    // int grid[N][N];
+    
+    // printf("Enter the sudoku:\n");
+    // printf("1. fill the empty spaces with 0\n");
+    
+    // for(int i =0; i<N; i++){
+    //     printf("Enter the %d line in sudoku\n", i+1);
+    //     for(int j =0; j<N; j++){
+    //         scanf("%d",grid[i][j]);
+    //     }
+    // }
 
 	int grid[N][N] = { { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
 					{ 5, 2, 0, 0, 0, 0, 0, 0, 0 },
